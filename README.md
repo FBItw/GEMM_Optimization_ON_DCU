@@ -1,5 +1,5 @@
-# GEMM_Optimization_ON_DCU
-Overview
+# GEMM_Optimization_ON_DCU\n
+Overview\n
   Introduction to Competition Tasks:
   Task 1: Matrix multiplication operation. According to the given matrix, solve matrix multiplication of different scales and output the final result Calculate the       results and the required time.
   Task 2: Based on this, efficient matrix multiplication operations can be achieved using program performance optimization theories and methods such as memory access     optimization, partitioning techniques, register optimization, loop unrolling, SIMD vectorization, and data prefetching.
