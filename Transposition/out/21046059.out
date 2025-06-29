@@ -1,0 +1,12 @@
+Launch params (32, 32, 1) are larger than launch bounds (256) for kernel _Z18gpuTransposeKernelPKaPai please add __launch_bounds__ to kernel define or use --gpu-max-threads-per-block recompile program ! 
+串行 CPU 耗时: 3.96481 秒
+棋盘划分并行 CPU 耗时: 1.42335 秒
+直角划分并行 CPU 耗时: 1.22172 秒
+HIP GPU 耗时: 0.68325 秒
+
+性能对比:
+算法			时间(秒)		加速比
+串行 CPU		3.96481	1.0
+棋盘划分并行 CPU	1.42335	2.78556
+直角划分并行 CPU	1.22172	3.24528
+HIP GPU			0.68325	5.80287
