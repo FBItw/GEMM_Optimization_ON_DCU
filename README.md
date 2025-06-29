@@ -1,14 +1,14 @@
-# GEMM_Optimization_ON_DCU\n
-Overview\n
+# GEMM_Optimization_ON_DCU
+# Overview
   Introduction to Competition Tasks:
   Task 1: Matrix multiplication operation. According to the given matrix, solve matrix multiplication of different scales and output the final result Calculate the       results and the required time.
   Task 2: Based on this, efficient matrix multiplication operations can be achieved using program performance optimization theories and methods such as memory access     optimization, partitioning techniques, register optimization, loop unrolling, SIMD vectorization, and data prefetching.
   Task 3: Sparse matrix acceleration algorithm optimization. Design efficient data compression formats, sparse scheduling strategies, and parallelization strategies      for matrices with different sparsity rates and structures.
-Additional Question 1: Matrix Transposition.
+# Additional Question 1: Matrix Transposition.
   Runtime Environment
   1.Hardware Environment: CPU: Intel 8458P, with 20 available CPU cores. One DCU heterogeneous accelerator (k100AI) with 64GB of VRAM.
   2.Software Environment: hip5.4.23416, devtoolset-7.3.1, dtk-24.04, rocSPARSE library.
-Execution Steps
+# Execution Steps
   1.Modify the compilation script and the job submission script .build.shdcutest.slurm
   2.Execute the command to compile.bash build.sh
   3.Execute the command to submit the job.sbatch dcutest.slurm
